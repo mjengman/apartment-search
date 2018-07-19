@@ -1,0 +1,97 @@
+@charset = "utf-8";
+
+body {
+/*    background-color: cornflowerblue;*/
+    background-image: url(../images/times-square-code-immersives.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #123;
+    font-family: sans-serif;
+	padding:1.5rem;
+}
+
+.container {
+    background-color: #FFF;
+    color: #555;
+    font-family: sans-serif; 
+    font-size: 1.25rem;
+    padding: 1.5rem;
+    margin: 1rem auto;
+	height: 60vh;
+    min-width: 50%;
+	max-width: 70%;
+    border: 5px solid #BBB;
+    border-radius: 5px;
+    opacity: 0.8; /* make the container slightly see-through */
+}
+
+main {
+	float: left;
+	width: 54%;
+	padding: 2%;
+    height: 55vh;
+    margin: 1%;
+/*    background-color: #DDD;*/
+}
+
+aside {
+	float: right;
+	width: 34%;
+	padding: 2%;
+	opacity: 1;
+    height: 55vh;
+    margin: 1%;
+    /* border-left: 5px solid #CCC;
+    background-color: #EEE;*/
+}
+
+input, select {
+    font-size: 1.25rem;
+    padding: 3px;
+    padding-left: 15px;
+    border-radius: 5px;
+	background-color: orange;
+	color: #FFF;
+	font-weight: bold;
+    margin-top: 15px;
+}
+
+button {
+    font-size: 1.5rem;
+    width: 50%;
+	background-color: orange;
+	color: #FFF;
+	font-weight: bold;
+}
+
+td {
+	padding: 5px;
+}
+
+.studentList tr:nth-child(even) {
+	color: #FFF;
+	background: #555;
+}
+
+.studentList tr:nth-child(odd) {
+	background: #FFF;
+	color: #555;
+}
+
+.thankyou {
+    background-color: #FFF; 
+    opacity: 0.7; 
+    width: 40%; 
+    padding: 1rem; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#submit {
+    width: 250px;
+    padding: 10px;
+}
+
+
+
+
